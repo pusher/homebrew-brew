@@ -1,9 +1,9 @@
 class Pusher < Formula
   desc "Pusher CLI!"
   homepage "https://pusher.com/"
-  url "https://github.com/pusher/cli/releases/download/v0.11/pusher_0.11_darwin_amd64.zip"
-  version "0.11"
-  sha256 "478f8d0a322c2b0428fb6c3647b7ef3e9d85795bab083cae7b43097299489a9d"
+  url "https://github.com/pusher/cli/releases/download/v0.12/pusher_0.12_darwin_amd64.zip"
+  version "0.12"
+  sha256 "b7f8f468c265a139c9deb34b8ac8d59987ffee1162854e1702cdf6b149e24df2"
 
   def install
     bin.install "pusher"

@@ -5,11 +5,11 @@
 class Pusher < Formula
   desc "Pusher CLI!"
   homepage "https://pusher.com/"
-  version "0.18"
+  version "0.19"
 
   on_macos do
-    url "https://github.com/pusher/cli/releases/download/v0.18/pusher_0.18_Darwin_x86_64.tar.gz"
-    sha256 "0d23f0b1bc6315ec56977e50a8e322ad1c14218f0f41c407c54c80243b230175"
+    url "https://github.com/pusher/cli/releases/download/v0.19/pusher_0.19_Darwin_x86_64.tar.gz"
+    sha256 "436b8c0a84221cdded513bcf4e42bfb636a01e845e31dc385ec5c35d734a9841"
 
     def install
       bin.install "pusher"
@@ -28,8 +28,8 @@ class Pusher < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/pusher/cli/releases/download/v0.18/pusher_0.18_Linux_x86_64.tar.gz"
-      sha256 "8f4edb60448666e6591dc1e1ea75e6594931b2477c0ba2de52ca939be221fd9b"
+      url "https://github.com/pusher/cli/releases/download/v0.19/pusher_0.19_Linux_x86_64.tar.gz"
+      sha256 "e92b5871be6c94ac9c075db966c3e07dc2756f32691ce21e12edefd5be309fe8"
 
       def install
         bin.install "pusher"
